@@ -25,3 +25,11 @@ Staging areas and distributed version control
 * bisect
 
 ## Workflows for Teams
+
+## Resources
+* [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
+* [GitHub Git Tutorials](https://try.github.io/)
+* https://learngitbranching.js.org/
+* https://betterexplained.com/articles/aha-moments-when-learning-git/
+* https://buddy.works/blog/5-types-of-git-workflows
+* https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html
