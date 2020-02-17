@@ -20,9 +20,28 @@ Pushing/pulling on a single branch. This is the most common set-up for novice us
 * They will have to pull in order to push. A good opportunity for discussing working together in Git.
 
 ## What's going on underneath?
-Staging areas and distributed version control
+Once the audience understands basic Git usage, they'll probably wonder what is going on under the hood.
+
+This is a good time to discuss staging areas in distributed version control.
+https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html has good visualizations.
 
 ## Collaborating on Code
+Do some exercises in [Learn Git Branching](https://learngitbranching.js.org/)
+
+### Branching
+Branching: prevent your changes from breaking other people's code, and backup your code without pulling in other people's broken code.
+* Pair up the audience.
+* Have each pair create their own branch in the toy repository.
+* They can each push and fetch changes, without their local copy being affected!
+* Switch branches (files disappear!). They may be startled, but this is the start of getting accustomed to "it's still there."
+
+Mindset: "Branch early and often"
+
+### Merging
+* Have pair create a pull-request, or merge in branch to master
+Simulate a merge conflict
+* Each person in pair edits the same file, then commits.
+* One pushes, the other pulls. Demo `git mergetool` and how to fix it.
 
 ## Tips and Tricks
 * stash: Save something you're working on.
@@ -30,10 +49,10 @@ Staging areas and distributed version control
 * tag: Save release versions and paper revisions.
 
 ## Workflows for Teams
-Do some exercises in [Learn Git Branching](https://learngitbranching.js.org/)
 
-* Pair up the audience.
-* Have each pair create their own branch in the toy repository.
+## GitHub
+* History Tree (Insights > Network): useful for visualizing commit history
+* Pull Request: show an example PR and feedback.
 
 ## Some details
 * A GUI like GitKraken can help to visualize branching history.
