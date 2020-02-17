@@ -49,6 +49,7 @@ Simulate a merge conflict
 * tag: Save release versions and paper revisions.
 
 ## Workflows for Teams
+Team leads may be interested in [Git Workflows](https://buddy.works/blog/5-types-of-git-workflows).
 
 ## GitHub
 * History Tree (Insights > Network): useful for visualizing commit history
